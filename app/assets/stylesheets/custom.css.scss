@@ -1,4 +1,4 @@
-$navbar-default-bg: #58ACFA;
+$navbar-default-bg: #FACC2E;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -18,4 +18,36 @@ $navbar-default-bg: #58ACFA;
 
 .center {
   text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('held_sun.jpg');
+  background-size: cover;
+  height: 560px;
+}
+
+.jumbotron h1 {
+  color: #FACC2E;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  background-color: black;
+  border-radius: 24px;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+}
+
+footer small {
+  float: left;
+  margin-left: 15px;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
 }
